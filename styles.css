@@ -1,0 +1,157 @@
+body{
+    font-family: "montserrat";
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+   /* cab be give name big heaading  */
+    h1{
+    font-family: "montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+   padding: 3% 15%;
+}
+/* navigation bar styling */
+.navbar{
+    padding:0 0 2.5rem;
+}
+.nav-item{
+    /* space between items  */
+    padding: 0px 15px;
+}
+.nav-link{
+    font-family: "montserrat";
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+/* space separation alingmaent download buttons  */
+.download-button{
+    margin:5% 3% 5% 0;
+}
+ /* title-image of iphone transform */
+.title-image{
+    width:60%;
+    transform: rotate(25deg);
+    /* position: absolute;
+    left: 30%; */
+    
+   
+}
+/* feature sections */
+#features{
+    padding: 5% 15%;
+    background-color: #fff;
+    /* position: relative;
+    z-index: 1; */
+}
+.feature-box{
+    text-align: center;
+    padding: 6%;
+    
+}
+h3{
+    font-family: "montserrat-bold";
+    font-size: 1.6rem;
+}
+p{
+    color: gray;
+}
+.icon{
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* testmonials sections editing */
+#testimonials{
+    /* padding: 7% 20%; */
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+    font-family:"montserrat-bold" ;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 4%;
+}
+.img-logo{
+    width: 16%;
+    /* giving spaces between images  */
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 16%;
+    
+}
+/* code for pricings bootstrap cards  */
+li{
+    color: gray;
+}
+.card-header{
+    color: aliceblue;
+    background-color: black;
+
+}
+.row{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+/* pricing designing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+/* media queery applyng for responsiveness */
+@media (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }}
+/* }cta designing */
+#cta{
+    background-color:#ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-heading{
+    font-family: "montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* footer section designing  */
+#footer{
+    background-color:#fff;
+    padding: 8% 15%;
+    text-align: center;
+    color: rgb(8, 8, 8);
+
+}
+.social-icon{
+    margin: 20px 10px;
+}
+.cr{
+    font-size: 20px;
+}
